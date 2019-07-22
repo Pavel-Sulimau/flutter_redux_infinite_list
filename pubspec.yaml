@@ -1,0 +1,22 @@
+name: flutter_redux_infinite_list
+description: Shows how redux can be used to make an infitine list.
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.1.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_redux: ^0.5.3
+  redux_logging: ^0.3.0 
+  http: ^0.12.0+2
+  intl: ^0.15.8
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
