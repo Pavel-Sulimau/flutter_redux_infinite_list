@@ -29,7 +29,7 @@ bool _isDataLoadingFinishedReducer(bool _, dynamic action) {
 
 bool _isNextPageAvailableReducer(bool isNextPageAvailable, dynamic action) {
   return (action is ItemsPageLoadedAction)
-      ? action.itemsPage.length == 20
+      ? action.itemsPage.length == AppState.itemsPerPage
       : isNextPageAvailable;
 }
 
